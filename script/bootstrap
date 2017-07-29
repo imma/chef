@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+function main {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  block compile bundler
+
+  mkdir -p "$shome/bin"
+  cd "$shome/bin"
+  (set +f; ln -nfs ../vendor/bundle/bin/chef* ../vendor/bundle/bin/knife* "$shome/bin/")
+}
+
+main "$@"
