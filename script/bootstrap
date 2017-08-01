@@ -4,6 +4,8 @@ function main {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
+  rbenv install -s
+  gem install bundler -v "${BUNDLER_VERSION}"
   block compile bundler
 
   mkdir -p "$shome/bin"
