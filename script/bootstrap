@@ -5,7 +5,7 @@ function main {
   source "$shome/script/profile"
 
   rbenv install -s
-  gem install bundler -v "${BUNDLER_VERSION}"
+  gem install bundler --conservative -v "${BUNDLER_VERSION}"
   block compile bundler
 
   mkdir -p "$shome/bin"
