@@ -5,7 +5,11 @@ function version {
   source "$shome/script/profile"
 
   local ver_chef="$(chef-client --version 2>/dev/null | awk '{print $2}' || true)"
-  jq -n --arg chef "$ver_chef" '{chef: $chef}'
+  local ver_berkshelf="$(berks --version 2>/dev/null || true)"
+  jq -n \
+    --arg chef "$ver_chef" \
+    --arg berkshelf  "$ver_berkshelf" \
+    '{chef: $chef, berkshelf: $berkshelf}'
 }
 
 version "$@"

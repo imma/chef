@@ -204,7 +204,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  berkshelf (~> 6.2.0)
+  berkshelf (~> 6.2.1)
   chef (= 12.19.36)
 
 BUNDLED WITH
