@@ -3,3 +3,4 @@
 /bin/chef*
 /bin/knife*
 /bin/berks
+/bin/ohai

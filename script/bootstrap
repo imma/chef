@@ -10,7 +10,7 @@ function main {
 
   mkdir -p "$shome/bin"
   cd "$shome/bin"
-  (set +f; ln -nfs ../vendor/bundle/bin/chef* ../vendor/bundle/bin/knife* ../vendor/bundle/bin/berks "$shome/bin/")
+  (set +f; ln -nfs ../vendor/bundle/bin/chef* ../vendor/bundle/bin/knife* ../vendor/bundle/bin/berks ../vendor/bundle/bin/ohai "$shome/bin/")
 }
 
 main "$@"
