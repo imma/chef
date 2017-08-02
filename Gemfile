@@ -9,3 +9,6 @@ gem "berkshelf", "6.2.1"
 gem "foodcritic", "11.3.0"
 
 gem "cookstyle", "2.0.0"
+
+gem "test-kitchen", "1.16.0"
+gem "kitchen-vagrant", "1.1.1"

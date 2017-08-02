@@ -7,3 +7,4 @@
 /bin/foodcritic
 /bin/rubocop
 /bin/cookstyle
+/bin/kitchen
