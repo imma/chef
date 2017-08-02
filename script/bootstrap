@@ -21,8 +21,10 @@ function main {
     ../vendor/bundle/bin/ohai \
     ../vendor/bundle/bin/foodcritic \
     ../vendor/bundle/bin/cookstyle \
-    ../vendor/bundle/bin/kitchen \
     "$shome/bin/")
+
+  rm -f "$shome/bin/kitchen"
+  rm -f "$shome/bin/rubocop"
 }
 
 main "$@"
