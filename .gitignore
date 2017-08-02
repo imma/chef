@@ -4,3 +4,4 @@
 /bin/knife*
 /bin/berks
 /bin/ohai
+/bin/foodcritic
