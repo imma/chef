@@ -17,7 +17,6 @@ function main {
   (set +f; ln -nfs \
     ../vendor/bundle/bin/chef* \
     ../vendor/bundle/bin/knife* \
-    ../vendor/bundle/bin/berks \
     ../vendor/bundle/bin/ohai \
     ../vendor/bundle/bin/foodcritic \
     ../vendor/bundle/bin/cookstyle \
@@ -25,6 +24,7 @@ function main {
 
   rm -f "$shome/bin/kitchen"
   rm -f "$shome/bin/rubocop"
+  rm -f "$shome/bin/berks"
 }
 
 main "$@"
