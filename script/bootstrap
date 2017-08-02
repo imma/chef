@@ -21,6 +21,7 @@ function main {
     ../vendor/bundle/bin/ohai \
     ../vendor/bundle/bin/foodcritic \
     ../vendor/bundle/bin/rubocop \
+    ../vendor/bundle/bin/cookstyle \
     "$shome/bin/")
 }
 

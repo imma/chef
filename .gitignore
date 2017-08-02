@@ -6,3 +6,4 @@
 /bin/ohai
 /bin/foodcritic
 /bin/rubocop
+/bin/cookstyle

@@ -8,4 +8,4 @@ gem "ohai", "8.24.1"
 gem "berkshelf", "6.2.1"
 gem "foodcritic", "11.3.0"
 
-gem "rubocop", "0.49.1"
+gem "cookstyle", "2.0.0"
