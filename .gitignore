@@ -5,3 +5,4 @@
 /bin/berks
 /bin/ohai
 /bin/foodcritic
+/bin/rubocop
