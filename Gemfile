@@ -12,3 +12,5 @@ gem "cookstyle", "2.0.0"
 
 gem "test-kitchen", "1.16.0"
 gem "kitchen-vagrant", "1.1.1"
+gem "kitchen-inspec", "0.19.0"
+gem "inspec", "1.31.1"
