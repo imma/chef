@@ -238,7 +238,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chef (~> 12.21.0)
+  chef (~> 12.21.12)
   chef-dk (~> 1.5.0)
   cookstyle (~> 2.0.0)
   foodcritic (~> 11.3.0)
