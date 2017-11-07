@@ -8,3 +8,5 @@
 /bin/rubocop
 /bin/cookstyle
 /bin/kitchen
+Gemfile.lock
+Gemfile.lock
